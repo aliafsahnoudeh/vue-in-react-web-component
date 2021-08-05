@@ -1,0 +1,75 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, textarea, input {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../assets/fonts/NotoSansDisplay-Regular.woff2') format('woff2'),
+    url('../assets/fonts/NotoSansDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../assets/fonts/NotoSansDisplay-Medium.woff2') format('woff2'),
+    url('../assets/fonts/NotoSansDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../assets/fonts/NotoSansDisplay-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/NotoSansDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+ol, ul {
+  padding-left: 24px;
+  margin: 8px 0;
+}
+
+ol > li {
+  margin-bottom: 8px;
+}
+
+input::placeholder {
+  color: #A4AFB4;
+  opacity: 1;
+}
+
+option {
+  margin: 0;
+  padding: 0;
+}

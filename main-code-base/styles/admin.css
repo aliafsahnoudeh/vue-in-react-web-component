@@ -1,0 +1,2 @@
+/* HACK: this is pretty hacky. would be better done with css modules */
+@import '../node_modules/antd/dist/antd.css';
