@@ -18,7 +18,7 @@ Vue is not defined
 ```
 
 * No extra changes needed to be done in webpack configs of our main codebase. Since we aren not importing any .vue file directly.
-8 There is no need to add styles from vue component separately. It’ll be done through the build process and will be included in the JavaScript file. So by importing the common.js file, we are importing the styles too.
+* There is no need to add styles from vue component separately. It’ll be done through the build process and will be included in the JavaScript file. So by importing the common.js file, we are importing the styles too.
 ### Pros
 * This approach would be very handy if we want to use a Vue.js widget inside a non-vue code base.
 ### Cons
